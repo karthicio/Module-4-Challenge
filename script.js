@@ -64,7 +64,7 @@ function wrongfin() {
   finalscore = score + time;
   count.textContent = finalscore;
   clearInterval(countdown);
-  hs = parseInt(document.getElementById("highscore"));
+  hs = highscore.textContent;
 //if function to check hs
   if (finalscore > hs) {
    highscore.textContent = finalscore;
