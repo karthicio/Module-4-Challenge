@@ -2,6 +2,7 @@ var startquiz = document.getElementById("startquiz");
 
 time = 45;
 score = 0;
+hs = highscore.textContent;
 
 //Start Quiz button is pressed
 startquiz.onclick = firststart;
@@ -17,7 +18,7 @@ function timeup() {
   document.getElementById("restart").style.display = "block";
   document.getElementById("clear").style.display = "block";
   document.getElementById("restart").onclick = function() {firststart();};
-    document.getElementById("a1").style.display = "none";
+  document.getElementById("a1").style.display = "none";
   document.getElementById("a2").style.display = "none";
   document.getElementById("a3").style.display = "none";
   document.getElementById("a4").style.display = "none";
@@ -44,8 +45,6 @@ function rightfin() {
     count.textContent = finalscore;
     clearInterval(countdown);
     hs = highscore.textContent;
-    console.log(hs);
-    console.log(finalscore);
     //if function to check hs
     if (finalscore > hs) {
       highscore.textContent = finalscore;
@@ -66,7 +65,6 @@ function wrongfin() {
   count.textContent = finalscore;
   clearInterval(countdown);
   hs = parseInt(document.getElementById("highscore"));
-  console.log(hs);
 //if function to check hs
   if (finalscore > hs) {
    highscore.textContent = finalscore;
