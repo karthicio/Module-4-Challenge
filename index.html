@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coding Review Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+  <div class="wrapper">
+    <div class="container">
+      <div class="card-contents">
+<!--Creates highscore posting-->
+          <h2>Previous Highscore: <span id="winner">NA</span><span>  </span><span id="highscore">0</span> </h2>
+          <h2 id="timer"> </h2>
+<!--Starts the quiz-->
+        <button id="startquiz">Start Quiz?</button>
+<!--Question Asked-->
+        <h2 id="question"></h2>
+<!--Answer Choices-->
+        <ul id="choices">
+          <li><button id="a1" style="display:none">1</button></li>
+          <li><button id="a2" style="display:none">2</button></li>
+          <li><button id="a3" style="display:none">3</button></li>
+          <li><button id="a4" style="display:none">4</button></li>
+        </ul>
+<!--Was the answer correct?-->
+        <h2 id="answer"> </h2>
+        <h3>Score:<span id="count"></span></h3>
+<!--Restarts the quiz-->
+        <button id="restart" style=display:none>Restart</button>
+<!--Clears the Current Highscore-->
+        <button id="clear" style=display:none>Clear Highscore</button>
+
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

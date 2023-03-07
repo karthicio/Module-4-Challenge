@@ -1,0 +1,96 @@
+/* Set page backgroun color */
+body {
+  background-color: white
+}
+
+/* Set h2 styling */
+h2 {
+  color: white;
+}
+
+/* Set h3 styling */
+h3 {
+  color: white;
+  text-align: right;
+  margin-right: 10%;
+}
+
+
+/* Set h4 styling */
+h4 {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: white;
+}
+/* Set button format and styling */
+button {
+  padding: 10px;
+  margin: 24px;
+  cursor: pointer;
+  font-size: 30px;
+  background-color: #000000;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  align-self: center;
+}
+
+/* Formats the container that holds the quiz */
+.container {
+  display: block;
+  margin: 15px auto;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90vw;
+  height: 90vh;
+  background-color:  black;
+}
+
+/* Sets the highscore color and location */
+.highscore {
+    text-align: center;
+    color: white;
+}
+
+/* pads quiz box text */
+.wrapper {
+  padding-top: 20px;
+}
+
+/* pads quiz items */
+.card-contents {
+  padding: 5px 5px 10px 5px;
+}
+
+/* Formats list */
+ul {
+  list-style-type: circle;
+  padding: 5px;
+  margin-left: 15px;
+
+}
+
+/* Formats list items */
+ul li {
+  text-align: center;
+  color: white;
+}
+
+li {
+  align-self: center;
+  text-align: center;
+  color: white;
+  list-style-position: outside;
+}
+
+.question {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+span {
+  color: white;
+ }
